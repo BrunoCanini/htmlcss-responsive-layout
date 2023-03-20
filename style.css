@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* UTILITY */
+
+.conteiner{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(197, 184, 184);
+}
+
+/* HEADER */
+
+header{
+    max-width: 100%;
+    height: 98px;
+    background-color: #0084fd;
+}
+
+nav{
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-bars{
+    color: white;
+}
+
+/* MAIN */
+
