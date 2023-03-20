@@ -7,7 +7,7 @@
 /* UTILITY */
 
 .conteiner{
-    max-width: 400px;
+    max-width: 85%;
     margin: auto;
     background-color: rgb(197, 184, 184);
 }
@@ -33,3 +33,45 @@ nav{
 
 /* MAIN */
 
+
+main{
+    margin-top: 65px;
+}
+
+/* section1 */
+
+.application{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+
+.demo{
+    width: 100%;
+    min-height: 460px;
+    background-color: #b5ddff;
+    border: 1px solid black;
+}
+
+.big{
+    min-height: 920px;
+    display: flex;
+    flex-direction: column;
+}
+
+.demoInside{
+    width: 100%;
+    height: 460px;
+    border: 1px solid black;
+}
+
+@media screen and (min-width:768px) {
+    
+    .application{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 33px;
+    }
+
+}
