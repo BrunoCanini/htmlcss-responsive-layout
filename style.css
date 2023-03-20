@@ -7,9 +7,17 @@
 /* UTILITY */
 
 .conteiner{
-    max-width: 85%;
-    margin: auto;
-    background-color: rgb(197, 184, 184);
+    max-width: 100%;
+    padding: 0 40px;
+}
+
+@media screen and (min-width:768px) {
+    
+    .conteiner{
+        max-width: 100%;
+        padding: 0 30px;
+    }
+
 }
 
 /* HEADER */
@@ -69,9 +77,22 @@ main{
     
     .application{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
         gap: 33px;
+        justify-content: space-between;
+    }
+
+    .demo{
+        width: 30%;
+        min-height: 460px;
+        background-color: #b5ddff;
+        border: 1px solid black;
+    }
+
+    .big{
+        min-width: calc( 60% + 33px );
+        display: flex;
+        flex-direction: column;
     }
 
 }
