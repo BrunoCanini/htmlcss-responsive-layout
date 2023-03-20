@@ -135,12 +135,11 @@ main{
         flex-direction: row;
         min-height: 460px;
     }
-
 }
 
 /* section2 */
 
-#purple{
+.purple{
     background-color: #9792e4;
     padding-bottom: 80px;
 }
@@ -171,4 +170,88 @@ main{
         background-color: white;
     }
 
+}
+
+/* section3 */
+
+.testimonial{
+    width: 100%;
+    min-height: 640px;
+    background-color: #9792e4;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+.testimonials{
+    padding: 60px 0 120px 0;
+}
+
+.info{
+    background-color: transparent;
+}
+
+/* section4 */
+
+.benefit{
+    width: 100%;
+    min-height: 640px;
+    border: 1px solid black;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.benefitBig{
+    width: 100%;
+    min-height: 640px;
+    border: 1px solid black;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+
+    .benefit{
+        width: calc(50% - 30px);
+        margin: 0;
+    }
+
+    .benefits{
+        gap: 30px;
+        justify-content: space-between;
+    }
+
+    .benefitBig{
+        width: 100%;
+        min-height: 640px;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .benefit{
+        width: calc(100% / 3 - 30px);
+        margin: 0;
+    }
+}
+
+/* section5 */
+
+.aboutUs{
+    width: 100%;
+    min-height: 1200px;
+    background-color: #9792e4;
+    border: 1px solid black;
+}
+
+#about{
+    padding: 60px 0 120px 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .aboutUs{
+        width: 50%;
+    }
 }
