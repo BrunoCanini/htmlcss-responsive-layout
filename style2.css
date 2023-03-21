@@ -550,8 +550,39 @@ article{
 
 .free{
     width: 100%;
-    min-height: 600px;
-    background-color: salmon;
+    text-align: center;
+}
+
+.free > span{
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 1.3rem;
+}
+
+.free > h2{
+    color: white;
+    font-size: 2rem;
+    margin: 30px 0 50px 0;
+}
+
+.free > h1{
+    color: gold;
+    font-size: 4.5rem;
+    padding-bottom: 50px;
+}
+
+.free > p{
+    line-height: 2rem;
+    color: white;
+}
+
+.free > button{
+    margin: 35px 0;
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: #9792e4;
+    border: none;
+    border-radius: 40px;
 }
 
 /* footer */
