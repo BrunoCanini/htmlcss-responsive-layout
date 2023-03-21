@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 /* UTILITY */
 
 .padding{
@@ -102,27 +106,87 @@ nav{
 .gridSection1{
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 800px 400px 400px 400px 400px;
+    grid-auto-rows: auto;
     gap: 30px;
 }
 
 .box{
-    background-color: salmon;
+    background-color: #b5ddff;
     border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 2.5rem 2rem;
 }
+
+.box > p{
+    line-height: 1.7rem;
+    color: #333333bb;
+    font-weight: bold;
+}
+
 
 .boxInside{
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* padding: 2.5rem 2rem; */
+    text-align: start;
 }
+
+.gridSection1  h2{
+    padding-bottom: 40px;
+    color: #0084fd;
+    font-size: 1.6rem;
+}
+
+.boxInside > p{
+    line-height: 1.7rem;
+    color: #333333bb;
+    font-weight: bold;
+    text-align: start;
+}
+
+.boxInside > img{
+    width: 100%;
+    display: block;
+}
+
+.boxInside > button{
+    width: 80%;
+    background-color: #0084fd;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.8rem;
+    margin-top: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.fa-apple{
+    margin-right: 7px;
+    font-size: 1.2rem;
+}
+
+.fa-solid{
+    font-size: 5.5rem;
+    color: #0084fd;
+    padding-bottom: 30px;
+}
+
+/* .phone{
+    display: none;
+    background-image: url(./img/phone.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
 
 @media screen and (min-width:768px) {
     
     .gridSection1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 800px 400px 400px;
+    grid-auto-rows: auto;
     gap: 30px;
 }
 
@@ -130,12 +194,20 @@ nav{
         grid-column: 1/3;
     }
 
+    .gridSection1  h2{
+        font-size: 1.4rem;
+    }
+
+    .boxInside > img{
+        width: 80%;
+        display: block;
+    }
 }
 
 @media screen and (min-width:993px) {
     
     .gridSection1{
-    grid-auto-rows: 400px;
+    grid-auto-rows: auto;
 }
 
     .First{
@@ -145,7 +217,11 @@ nav{
     .boxInside{
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+
+    .boxInside > img{
+        width: 100%;
+        display: block;
+    }
 }
 
 }
