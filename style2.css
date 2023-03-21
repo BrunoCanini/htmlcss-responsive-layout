@@ -608,7 +608,18 @@ article{
 @media screen and (min-width: 768px) {
 
     .free > p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    .free > p{
         font-size: 0.7rem;
+    }
+
+    .free > span{
+        font-size: 1rem;
     }
 }
 
@@ -639,6 +650,21 @@ footer{
 }
 
 @media screen and (min-width: 768px) {
+
+    .foot > p{
+        font-size: 0.9rem;
+    }
+
+    .foot > span{
+        font-size: 0.9rem;
+    }
+    
+    .foot > a{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 993px) {
 
     .foot > p{
         font-size: 0.7rem;
