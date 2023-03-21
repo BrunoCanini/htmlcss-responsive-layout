@@ -444,7 +444,7 @@ nav{
     .gridSection4{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 150px 400px 400px 400px;
+        grid-auto-rows: auto;
         gap: 30px;
     }
 
