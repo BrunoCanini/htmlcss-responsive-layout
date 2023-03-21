@@ -87,6 +87,18 @@ nav{
     display: none;
 }
 
+.naviDesktop > a{
+    padding: 0 20px;
+    color: white;
+}
+
+.naviDesktop > button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
 @media screen and (min-width:993px) {
     
     .navi{
