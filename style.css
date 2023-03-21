@@ -106,18 +106,18 @@ main{
 
 @media screen and (min-width:768px) {
     
-    .application{
+    /* .application{
         justify-content: space-between;
-    }
+    } */
 
-    .demo{
+    /* .demo{
         width: calc( 33% - 33px);
     }
 
     .big{
         width: calc( 67% - 33px );
         display: flex;
-    }
+    } */
 
 }
 

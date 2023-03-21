@@ -29,11 +29,11 @@
 
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:993px) {
     
     .conteiner{
         max-width: 100%;
-        padding: 0 390px;
+        padding: 0 100px;
     }
 
 }
@@ -51,10 +51,10 @@
 
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:993px) {
     
     .conteinerFoot{
-        width: 40%;
+        max-width: 700px;
         margin: auto;
     }
 
@@ -83,7 +83,7 @@ nav{
     display: none;
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:993px) {
     
     .navi{
         display: none;
@@ -132,7 +132,7 @@ nav{
 
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:993px) {
     
     .gridSection1{
     grid-auto-rows: 400px;
@@ -168,7 +168,7 @@ nav{
     background-color: white;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 993px) {
 
     .planning{
         width: 50%;
@@ -230,7 +230,7 @@ nav{
 
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 993px) {
 
     .gridSection4{
         display: grid;
@@ -269,7 +269,7 @@ nav{
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 993px) {
 
     .aboutUs{
         width: 30%;
