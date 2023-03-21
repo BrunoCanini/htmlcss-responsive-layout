@@ -537,11 +537,16 @@ nav{
 @media screen and (min-width: 768px) {
 
     .aboutUs{
-        width: 40%;
+        width: 30%;
     }
 
     .aboutUsBig{
         width: 60%;
+        padding-right: 10%;
+    }
+
+    .aboutUs > button{
+        width: 100%;
     }
 }
 
