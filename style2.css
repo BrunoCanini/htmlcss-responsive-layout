@@ -594,6 +594,19 @@ footer{
 
 .foot{
     width: 100%;
-    min-height: 230px;
-    background-color: antiquewhite;
+    text-align: center;
+}
+
+.foot > p{
+    color: white;
+    font-size: 1rem;
+    padding-bottom: 70px;
+}
+
+.foot > span{
+    color: white;
+}
+
+.foot > a{
+    color: #9792e4;
 }
