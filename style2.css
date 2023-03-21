@@ -112,7 +112,6 @@ nav{
 
 .box{
     background-color: #b5ddff;
-    border: 1px solid black;
     border-radius: 30px;
     text-align: center;
     padding: 2.5rem 2rem;
@@ -147,7 +146,7 @@ nav{
 }
 
 .boxInside > img{
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
