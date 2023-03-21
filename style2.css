@@ -605,6 +605,13 @@ article{
     border-radius: 40px;
 }
 
+@media screen and (min-width: 768px) {
+
+    .free > p{
+        font-size: 0.7rem;
+    }
+}
+
 /* footer */
 
 footer{
@@ -629,4 +636,19 @@ footer{
 
 .foot > a{
     color: #9792e4;
+}
+
+@media screen and (min-width: 768px) {
+
+    .foot > p{
+        font-size: 0.7rem;
+    }
+
+    .foot > span{
+        font-size: 0.7rem;
+    }
+    
+    .foot > a{
+        font-size: 0.7rem;
+    }
 }
