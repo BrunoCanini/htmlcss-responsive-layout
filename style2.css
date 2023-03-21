@@ -38,6 +38,28 @@
 
 }
 
+.conteinerFoot{
+    max-width: 100%;
+    padding: 0 40px;
+}
+
+@media screen and (min-width:768px) {
+    
+    .conteinerFoot{
+        padding: 0 120px;
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+    
+    .conteinerFoot{
+        width: 40%;
+        margin: auto;
+    }
+
+}
+
 /* HEADER */
 
 header{
@@ -256,4 +278,30 @@ nav{
     .aboutUsBig{
         width: 70%;
     }
+}
+
+/* article */
+
+article{
+    background-color: #9792e4;
+    padding: 60px 0;
+}
+
+.free{
+    width: 100%;
+    min-height: 600px;
+    background-color: salmon;
+}
+
+/* footer */
+
+footer{
+    background-color: #333333;
+    padding: 40px 0;
+}
+
+.foot{
+    width: 100%;
+    min-height: 230px;
+    background-color: antiquewhite;
 }
