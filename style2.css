@@ -262,7 +262,6 @@ nav{
     background-color: white;
     padding: 25px;
     border-radius: 65px;
-    align-self: flex-end;
 }
 
 .appDev > h3{
@@ -295,6 +294,8 @@ nav{
     
     .appDev{
         width: 35%;
+        align-self: flex-end;
+
     }
 
 }
