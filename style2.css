@@ -129,6 +129,13 @@ nav{
     padding: 2.5rem 2rem;
 }
 
+.boxFirst{
+    background-color: #b5ddff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 2.5rem 2rem 0 2rem;
+}
+
 .box > p{
     line-height: 1.7rem;
     color: #333333bb;
@@ -190,7 +197,7 @@ nav{
     gap: 30px;
 }
 
-    .First{
+    .boxFirst{
         grid-column: 1/3;
     }
 
@@ -210,7 +217,7 @@ nav{
     grid-auto-rows: auto;
 }
 
-    .First{
+    .boxFirst{
         display: flex;
     }
 
@@ -222,6 +229,10 @@ nav{
     .boxInside > img{
         width: 100%;
         display: block;
+    }
+
+    .boxInside > button{
+        margin-bottom: 1rem;
     }
 }
 
