@@ -88,7 +88,7 @@ nav{
 }
 
 .naviDesktop > a{
-    padding: 0 20px;
+    padding: 0 15px;
     color: white;
 }
 
@@ -262,6 +262,7 @@ nav{
     background-color: white;
     padding: 25px;
     border-radius: 65px;
+    align-self: flex-end;
 }
 
 .appDev > h3{
